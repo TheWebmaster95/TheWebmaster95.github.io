@@ -62,7 +62,25 @@ margin-left: 5%;
 
 
 
+@media screen and (max-width:600px) {
+          
+  .hero-section {
+    background-color: #fff;
+      background-size: cover;
+      height: 60vh;
+      
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    
+              margin-top: -3%;
+              width: 110%;
+              margin-left: -1%;
+    
+    }
+    
 
+}
 
 
 .hero-section {
@@ -77,6 +95,7 @@ background-color: #2F3E46;
           margin-top: -3%;
           width: 110%;
           margin-left: -1%;
+
 }
 
 
