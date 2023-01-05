@@ -83,26 +83,7 @@ margin-left: 5%;
 }
 
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-  .hero-section {
-    background-color: #000;
-      background-size: cover;
-      height: 60vh;
-      
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-    
-              margin-top: -3%;
-              width: 110%;
-              margin-left: -1%;
-    
-    }
 
-  
-}
-
-/* 
 
 
 .hero-section {
@@ -119,6 +100,43 @@ background-color: #2F3E46;
           margin-left: -1%;
 
 }
+
+
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+
+
+    .hero-section {
+      background-color: #FFA500;
+        background-size: cover;
+        height: 60vh;
+        
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+      
+                margin-top: -3%;
+                width: 110%;
+                margin-left: -1%;
+      
+      }
+      
+
+  }
 
 
 
