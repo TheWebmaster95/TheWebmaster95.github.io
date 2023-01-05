@@ -134,7 +134,18 @@ margin-left: 5%;
                 width: 110%;
                 margin-left: -1%;
       
-      }
+    }
+
+
+    .Hi{
+
+      color: #CAD2C5;
+      margin-left:1%;
+      margin-top: 2%;
+      font-size: 3em;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+    }
       
 
   }
