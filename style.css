@@ -23,6 +23,21 @@ html{
 
 }
 
+.hero-section {
+  background-color: #2F3E46;
+    background-size: cover;
+    height: 60vh;
+    
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  
+            margin-top: -3%;
+            width: 110%;
+            margin-left: -1%;
+  
+  }
+
 
 .menu2{
   color: #CAD2C5;
@@ -86,20 +101,7 @@ margin-left: 5%;
 
 
 
-.hero-section {
-background-color: #2F3E46;
-  background-size: cover;
-  height: 60vh;
-  
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 
-          margin-top: -3%;
-          width: 110%;
-          margin-left: -1%;
-
-}
 
 
 
@@ -131,7 +133,7 @@ background-color: #2F3E46;
       
                 margin-top: -3%;
                 width: 100%;
-                margin-left: -10%;
+
       
       }
       
