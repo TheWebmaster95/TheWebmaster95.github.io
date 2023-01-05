@@ -121,7 +121,7 @@ background-color: #2F3E46;
 
 
     .hero-section {
-      background-color: #FFA500;
+      background-color: #2F3E46;
         background-size: cover;
         height: 60vh;
         
@@ -130,8 +130,8 @@ background-color: #2F3E46;
         display: flex;
       
                 margin-top: -3%;
-                width: 110%;
-                margin-left: -1%;
+                width: 100%;
+                margin-left: -10%;
       
       }
       
