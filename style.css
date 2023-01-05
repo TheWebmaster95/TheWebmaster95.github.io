@@ -84,8 +84,6 @@ margin-left: 5%;
 
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-
   .hero-section {
     background-color: #000;
       background-size: cover;
@@ -100,9 +98,11 @@ margin-left: 5%;
               margin-left: -1%;
     
     }
-    
+
   
 }
+
+/* 
 
 
 .hero-section {
