@@ -52,20 +52,23 @@ html{
 
 
 
-.hero-section {
-  background-color: #2F3E46;
-    background-size: cover;
-    height: 60vh;
+
+  .hero-section {
+    background-color: #2F3E46;
+      background-size: cover;
+      height: 60vh;
+      
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
     
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  
-            margin-top: -3%;
-            width: 110%;
-            margin-left: -1%;
-  
-  }
+              margin-top: -3%;
+              width: 110%;
+              margin-left: -1%;
+    
+
+
+}
 
 
 .menu2{
