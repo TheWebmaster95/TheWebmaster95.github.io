@@ -23,6 +23,35 @@ html{
 
 }
 
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .hero-section {
+      background-color: #2F3E46;
+        background-size: cover;
+        height: 60vh;
+        
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+      
+                margin-top: -3%;
+                width: 110%;
+                margin-left: -1%;
+      
+
+
+  }
+
+
+
+
 .hero-section {
   background-color: #2F3E46;
     background-size: cover;
@@ -122,29 +151,6 @@ margin-left: 5%;
 
 
 
-/* ----------- Non-Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-
-    .hero-section {
-      background-color: #2F3E46;
-        background-size: cover;
-        height: 60vh;
-        
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-      
-                margin-top: -3%;
-                width: 110%;
-                margin-left: -1%;
-      
-    }
-
-
-  }
 
 
 
