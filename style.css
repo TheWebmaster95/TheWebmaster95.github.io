@@ -100,7 +100,23 @@ margin-left: 5%;
 
 
 
-
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .hero-section {
+    background-color: #000;
+      background-size: cover;
+      height: 60vh;
+      
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    
+              margin-top: -3%;
+              width: 110%;
+              margin-left: -1%;
+    
+  }
+  
+}
 
 
 
@@ -112,7 +128,20 @@ margin-left: 5%;
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
-
+    .hero-section {
+      background-color: #000;
+        background-size: cover;
+        height: 60vh;
+        
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+      
+                margin-top: -3%;
+                width: 110%;
+                margin-left: -1%;
+      
+    }
 
 
   }
