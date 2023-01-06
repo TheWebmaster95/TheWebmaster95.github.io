@@ -195,7 +195,24 @@ margin-left: 5%;
     }
 
 
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .name{
 
+      color: #000;
+      margin-left: -7%;
+      margin-top: 5%;
+      font-size: 3em;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+    
+    }
+
+  }
 
 
 
