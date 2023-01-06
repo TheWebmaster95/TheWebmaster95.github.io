@@ -61,6 +61,26 @@ html{
 
 
 
+  /* ----------- Retina Screens ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) { 
+  .menu1{
+    color: #CAD2C5;
+    margin-left: 60%;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+  
+    
+  
+  
+    }
+}
+
+
 .menu2{
   color: #CAD2C5;
   font-size: 30px;
