@@ -155,7 +155,7 @@ margin-left: 5%;
 
 
     .hero-section {
-      background-color: #2F3E46;
+      background-color: #000;
         background-size: cover;
         height: 60vh;
         
@@ -171,37 +171,27 @@ margin-left: 5%;
 
 
 
-     
-
-  }
-
-
-
-
-/* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-
-
     .name{
 
       color: #fff;
       margin-left: -7%;
       margin-top: 5%;
-      font-size: 3em;
+      font-size: 30em;
       font-family: 'Open Sans', sans-serif;
       font-weight: 800;
     
     }
 
+     
+
+  }
+
+
 
 
      
 
-  }
+
 
 
 
